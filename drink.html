@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Drinks</title>
+    <link rel="stylesheet" href="drink.css">
+</head>
+<body>
+
+    
+    <header>
+        
+        <div class="top">Drinks</div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+ 
+    <div class="rotate">
+        <div class="list">
+
+        <div class="item active" style="--bg:#ea3d41">
+             <div class="content">
+                Strawberry
+            </div>
+            <img src="./imges/fruit_strawberry.png" 
+            class="fruit">
+        </div>
+
+         <div class="item" style="--bg:#2d5643">
+             <div class="content">
+                Avocado
+            </div>
+            <img src="./imges/fruit_avocado.png" 
+            class="fruit">
+        </div>
+
+         <div class="item hidden" style="--bg:orange">
+             <div class="content">
+                Orange
+            </div>
+            <img src="./imges/fruit_orange.png" 
+            class="fruit">
+        </div>
+
+        </div>
+          
+        <div class="leaves"></div>
+        <div class="bottle"></div>
+        <div class="shadow"></div>
+        <div class="arrow">
+            <button id="next"><</button>
+            <button id="prev">></button>
+        </div>
+        
+    </div>
+
+    <script src="drink.js"></script>
+</body>
+</html>

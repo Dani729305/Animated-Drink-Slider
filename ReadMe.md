@@ -1,5 +1,7 @@
 # Animated Drink Slider
 
+https://dani729305.github.io/Animated-Drink-Slider/
+
 An interactive and animated drink product slider built using HTML, CSS, and JavaScript. The project allows users to switch between different drinks using a “Next” button, with smooth transitions that dynamically update the product image, background color, and drink name based on the selected item.
 
 ---
